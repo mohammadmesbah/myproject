@@ -1,0 +1,17 @@
+git config --global user.name "  "
+git config --global user.email "  "
+git config --list
+
+//create new folder
+
+git init "new represintory"
+touch "new file"
+cd ./new represintory
+
+ls 
+ls -a
+git status
+git add file1 file2 file3
+git commit -m "your message..."
+git status
+git log
