@@ -1,0 +1,38 @@
+git config --global user.name "  "
+git config --global user.email "  "
+git config --list
+
+//create new folder
+
+git init "new represintory"
+touch "new file"
+cd ./new represintory
+
+ls 
+ls -a
+git status
+git add file1 file2 file3
+git commit -m "your message..."
+git status
+git log
+
+// to back one step
+git checkout prev_operation_id
+
+//do new branch instead of MASTER
+git branch mohammad
+git checkout mohammad  //switch from branch master to mohammad branch
+
+//from master branch merge your edit branch
+git merge mohammad  //now we merge our editing branch 
+
+*************************************************
+*************************************************
+--------- check remote connection ---------------
+- $ git remote -v
+
+link new connection between git and github repo href:
+- $ git remote add connection_name https://github.com/mohammadmesbah/myproject.git
+
+upload git files changes to github cloud:
+- $ git push -u connection_name master
